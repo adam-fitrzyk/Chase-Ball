@@ -1,0 +1,103 @@
+    start_player_pos =
+    player_radius =
+    start_enemy_pos = 
+    enemy_radius =
+    slow_down =
+    speed_up =
+    bounce_back =
+    enemy_speed =
+    goal_text =
+    goal_text_center =
+    goal_font =
+    goal_criteria =
+    caption_text =
+
+stage1
+start_player_pos = *0.5, *1
+player_radius = 40
+start_enemy_pos = *1.5, *1
+enemy_radius = 20
+slow_down = 10
+speed_up = 35
+bounce_back = 50
+enemy_speed = 20
+goal_text = TOUCH ME!
+goal_text_center = *2-100, *1
+goal_font = default, 20
+goal_criteria = none, None
+caption_text = Easy start
+
+stage2
+start_player_pos = *0.2, *0.2
+player_radius = 40
+start_enemy_pos = *0.8, *0.8
+enemy_radius = 20
+slow_down = 10
+speed_up = 30
+bounce_back = 50
+enemy_speed = 30
+caption_text = Think fast!
+goal_font = default, 20
+goal_text = TOUCH ME!
+goal_text_center = *2-100, *2-50
+goal_criteria = none, None
+
+stage3
+start_player_pos = *0.2, *1.8
+player_radius = 20
+start_enemy_pos = *1, *1
+enemy_radius = 300
+slow_down = 10
+speed_up = 45
+bounce_back = 50
+enemy_speed = 10
+caption_text = Quickly now!
+goal_font = default, 20
+goal_text = TOUCH ME!
+goal_text_center = *2-100, *0+50
+goal_criteria = none, None
+
+stage4
+start_player_pos = *0.5, *1
+player_radius = 10
+start_enemy_pos = *1.2, *1
+enemy_radius = 40
+slow_down = 70
+speed_up = 15
+bounce_back = 60
+enemy_speed = 20
+goal_text = TOUCH ME!
+goal_text_center = *2-200, *1
+goal_font = default, 10
+goal_criteria = speed, 950
+caption_text = Air hockey 0-7?\nHit the goal at max speed!
+
+stage5
+start_player_pos = *0.2, *1
+player_radius = 20
+start_enemy_pos = *1.2, *1
+enemy_radius = 100
+slow_down = 20
+speed_up = 25
+bounce_back = 200
+enemy_speed = 50
+caption_text = Bounce or get pounced!
+goal_font = default, 20
+goal_text = HIT ME!
+goal_text_center = *2-100, *1
+goal_criteria = none, None
+
+stage6
+start_player_pos = *0.5, *1
+player_radius = 40
+start_enemy_pos = *1.5, *1
+enemy_radius = 20
+slow_down = 65
+speed_up = 4
+bounce_back = 50
+enemy_speed = 10
+goal_text = TOUCH ME!
+goal_text_center = *2-100, *1
+goal_font = default, 20
+goal_criteria = none, None
+caption_text = Ice skating!
