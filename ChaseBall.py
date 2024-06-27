@@ -60,7 +60,6 @@ class ChaseBall:
                         
         self.__Menu.quit()
 
-
 def main() -> None:
     cb = ChaseBall()
     cb.play()
